@@ -18,7 +18,17 @@
         </activity>
         <activity android:name=".User" />
         <activity android:name=".Forgot" />
-        <activity android:name=".Signup"></activity>
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".MAIN"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
     </application>
 
 </manifest>
