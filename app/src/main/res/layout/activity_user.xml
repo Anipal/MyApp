@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,9 +9,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:padding="20dp"
-        android:textSize="30sp"
+        android:text="Welcome !!"
+        android:textAllCaps="true"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_centerInParent="true"
+        android:textColor="#571B7E"
+        android:textStyle="bold"
+
+
+
         />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
+

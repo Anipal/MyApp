@@ -1,67 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.shourya.myapp.MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical" >
 
-        <EditText
-            android:id="@+id/Un"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Username"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:inputType="textPersonName"
-            >
-        </EditText>
-
-        <EditText
-            android:id="@+id/Pa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:inputType="textPassword"
-            android:hint="Password">
-        </EditText>
-
-        <Button
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:id="@+id/button"
-            android:onClick="check"
-            />
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:id="@+id/content_frame">
 
-        <TextView
+            <EditText
+                android:id="@+id/Un"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                >
+            </EditText>
+
+            <EditText
+                android:id="@+id/Pa"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:hint="Password">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Forgot Password"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:textStyle="bold"
-            android:id="@+id/forgot"
-            android:onClick="forgot"
-            />
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="80dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/button"
+                android:onClick="check"
+                android:layout_weight="1"
+                android:layout_marginLeft="32dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:textStyle="bold"
-            android:text="SignUp"
-            android:id="@+id/signup"
-            android:onClick="signup"
-            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:id="@+id/forgot"
+                android:onClick="forgot"
+                android:textColor="#FFFFFF"
 
+                />
 
-    </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SignUp"
+                android:id="@+id/signup"
+                android:onClick="signup"
+                android:layout_weight="1"
+                android:layout_marginLeft="32dp"
+                android:textColor="#FFFFFF"
+                />
+</LinearLayout>
+    </RelativeLayout>
