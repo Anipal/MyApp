@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/home/shourya/MyApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9f5c3de165b0e8685fa3b30b9683a91eda51f1c">
+        <dex dex="/home/shourya/MyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d58e09f5d26c51e4dda95a4a3b26066f59e780d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shourya/MyApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/shourya/MyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f3a9efb1db03dc7a324db6e8ff063886ccb2c8f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/shourya/AndroidStudioProjects/MyApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"

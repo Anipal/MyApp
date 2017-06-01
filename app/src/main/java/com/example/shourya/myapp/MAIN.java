@@ -24,6 +24,8 @@ public class MAIN extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        FragmentManager fM = getFragmentManager();
+        fM.beginTransaction().replace(R.id.content_frame, new firstFragment()).commit();
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
