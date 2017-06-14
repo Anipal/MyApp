@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="1383b54f36e7add090ef237277deab70f68ad68e">
+        sha1="e6b8f3a0f8e918e12c94a0b1be16ac91c8a39f9b">
         <dex dex="/home/anipal/AndroidStudioProjects/MyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04342212a797bea39f7435799429cd06c3ac69bb/classes.dex" />
     </item>
     <item
