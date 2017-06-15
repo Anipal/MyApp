@@ -8,4 +8,15 @@
     <string name="action_settings">Settings</string>
     <string name="loading"></string>
     <string name="auth_failed">Failed</string>
+<string-array name="food_array">
+    <item>Burger</item>
+    <item>French Fries</item>
+    <item>Popcorn</item>
+    <item>Sandwich</item>
+    <item>Pizza</item>
+    <item>Samosa</item>
+    <item>Chicken Wings</item>
+    <item>Noodles</item>
+</string-array>
+
 </resources>

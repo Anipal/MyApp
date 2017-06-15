@@ -79,16 +79,16 @@ public class Signup extends AppCompatActivity {
 
         progressBar.setVisibility(View.VISIBLE);
 
-   ;
+        ;
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                       if(task.isSuccessful()) {
-                           Intent intent = new Intent(Signup.this, MainActivity.class);
-                           startActivity(intent);
-                           finish();
-                       }
+                        if(task.isSuccessful()) {
+                            Intent intent = new Intent(Signup.this, MainActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
                         if (!task.isSuccessful()) {
                             Toast.makeText(Signup.this, R.string.auth_failed, Toast.LENGTH_SHORT).show();
                         }

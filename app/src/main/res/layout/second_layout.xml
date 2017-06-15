@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+    android:layout_width="match_parent" android:layout_height="match_parent"
+   >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/titlefood">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Second"
+        android:layout_height="wrap_content"
+        android:text="Select an Item"
 
-        />
+
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginStart="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:id="@+id/food_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/titlefood"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:text="ORDER"
+        android:onClick="onClick"
+        android:id="@+id/button_order"/>
 </RelativeLayout>
