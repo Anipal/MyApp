@@ -55,26 +55,30 @@ public class secondFragment extends Fragment {
             public void onClick(View view) {
 
 
-                AlertDialog.Builder builder;
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(getActivity());
+                builder1.setMessage("Confirm order ?");
+                builder1.setCancelable(true);
 
-                builder = new AlertDialog.Builder(getActivity());
-
-                builder.setTitle("Oder Confirmation")
-                        .setMessage("Are you sure you want to confirm the order?")
-                        .setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
+                builder1.setPositiveButton(
+                        "Yes",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
                                 Toast.makeText(getActivity(), "Order Confirmed", Toast.LENGTH_LONG).show();
                                 dialog.cancel();
-
-                            }
-                        })
-                        .setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(getActivity(), "Order Cancelled", Toast.LENGTH_LONG).show();
-                                dialog.cancel();
-                                // do nothing
                             }
                         });
+
+                builder1.setNegativeButton(
+                        "No",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                Toast.makeText(getActivity(), "Order Cancelled", Toast.LENGTH_LONG).show();
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
             }
         });
    return myView;
