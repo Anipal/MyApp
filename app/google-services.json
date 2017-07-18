@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "143095873853",
+    "firebase_url": "https://myapp-deaae.firebaseio.com",
+    "project_id": "myapp-deaae",
+    "storage_bucket": "myapp-deaae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143095873853:android:76ce0a5c4d5d5028",
+        "android_client_info": {
+          "package_name": "com.example.shourya.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143095873853-dgd8vs03oc4j1u98er9516pbs02jk46m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.myapp",
+            "certificate_hash": "386711134bf4c912efabe33c160049d678591455"
+          }
+        },
+        {
+          "client_id": "143095873853-c88cnk81m3d6qegkvp55q774rfc5820t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.myapp",
+            "certificate_hash": "45ec7c2250bd926f5e3570fd41ce9d1621b02b05"
+          }
+        },
+        {
+          "client_id": "143095873853-juliosb3irg04nred37uev11nu5i20gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.myapp",
+            "certificate_hash": "ee0d94014023fcc8c43aad4a94c27d56939f84a6"
+          }
+        },
+        {
+          "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwRX6yt8gvuoReHubXelfVV6ce1lqibM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143095873853:android:1978edef25d7c992",
+        "android_client_info": {
+          "package_name": "com.example.shourya.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143095873853-mtei3cnp6j6njnui2o8qlg6m5sq50j2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.myapplication",
+            "certificate_hash": "386711134bf4c912efabe33c160049d678591455"
+          }
+        },
+        {
+          "client_id": "143095873853-okdcouo5q275bg0kqf78vu9gab5vgpcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.myapplication",
+            "certificate_hash": "ee0d94014023fcc8c43aad4a94c27d56939f84a6"
+          }
+        },
+        {
+          "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwRX6yt8gvuoReHubXelfVV6ce1lqibM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143095873853:android:d8eff89e9d1be024",
+        "android_client_info": {
+          "package_name": "com.example.shourya.rec3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143095873853-tpec9h7oriq0nb3g72t96avg330mokl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shourya.rec3",
+            "certificate_hash": "386711134bf4c912efabe33c160049d678591455"
+          }
+        },
+        {
+          "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwRX6yt8gvuoReHubXelfVV6ce1lqibM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143095873853-udv8gjln5hr0e58j7ju9i8c26s05q244.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
